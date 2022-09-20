@@ -14,7 +14,7 @@ body{
 }
 
 /* Generalizando Fuentes */
-h1{font-size: 5.0em;}
+h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 h4{font-size: 1.8em;}
@@ -49,7 +49,7 @@ button:hover{
 .color-acento{ color: blueviolet;}
 
 header{
-    background-color: rgb(245,245,245);
+    background-color: rgb(245, 245, 245);
 }
 /* Organizacion de logo */
 header .logo{
@@ -106,11 +106,11 @@ header a:hover{
 }
 
 #hero h1{
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 #about{
-
+    background-color: rgb(241, 241, 241);
 }
 
 #about .container{
@@ -148,13 +148,6 @@ header a:hover{
     width: 250px;
 }
 
-/* #tech .card{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px;
-    margin: 20px;
-    border-radius: 15px;
-} */
 
 #tech .card {
     background-position: center center;
@@ -211,18 +204,23 @@ header a:hover{
     display: none;
 }
 
+
+
 #programs .img-programs{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    align-items: center;
+    background-position: center center;
 }
 
 #programs .news{
-    
-    background-position: center center;
+    width: 45%;
+    /* height: 50%; */
     background-size: cover;
-    margin: 20px;
-    border-radius: 15px;
+    margin-left: 20px;
+    padding: 30px;
+    
     
 }
 
@@ -230,27 +228,30 @@ header a:hover{
 footer{
     /* flex-direction: column; */
     text-align: center;
-    /* align-items: center; */
+    align-items: center;
     background-color: rgb(30, 30, 30);
     color: #fff;
-    padding: 10px;
+    /* padding: 1px; */
 }
 
 
 footer p{
+
     margin: 0;
-    padding: 10px;
+    padding: 3px;
 }
 
 footer .container-foo{
+    font-size: 0.7em;
     display: flex;
     justify-content: space-evenly;
 }
 
 footer .title-final{
-    font-size: 1.0em;
+    font-size: 0.8em;
     font-weight: 100;
-    height: 150px;
+    padding-right: 20px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -275,7 +276,7 @@ footer .title-final{
     }
 
     #hero h1{
-        font-size: 5em;
+        font-size: 3.5em;
     }
 
     #about .container-about{
@@ -284,10 +285,11 @@ footer .title-final{
     }
     
     #about .text{
-        width: 50%;
-        max-width: 600px;
+        width: 40%;
+        max-width: 500px;
         text-align: initial;
-        padding-left:  30px;
+        /* padding-left:  0px; */
+        margin-right: 120px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -295,17 +297,18 @@ footer .title-final{
 
     #about h2{
         margin-top: 0px;
-        font-size: 3em;
+        font-size: 2.7em;
         font-weight: 800;
     }
     
     #about .img-about{
-        background-image: url("/img/ilustracion3.jpg");
+        background-image: url("/img/me2.jpg");
         background-size: cover;
         flex-direction: row;
         background-position: center center;
-        height: 500px;
-        width: 50%;
+        margin-left: 120px;
+        height: 600px;
+        width: 40%;
     }
 
     #tech .img-tech{
@@ -348,6 +351,7 @@ footer .title-final{
     }
 
     footer .container{
+        
         text-align: initial;
     }
 
