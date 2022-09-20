@@ -215,12 +215,9 @@ header a:hover{
 }
 
 #programs .news{
-    width: 45%;
     /* height: 50%; */
     background-size: cover;
-    margin-left: 20px;
-    padding: 30px;
-    
+
     
 }
 
@@ -337,6 +334,10 @@ footer .title-final{
     }
     
     #programs .news{
+        width: 45%;
+        margin-left: 20px;
+        padding: 30px;
+        
         justify-content: center;
 
 
