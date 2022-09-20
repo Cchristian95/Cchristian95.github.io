@@ -1,2 +1,2 @@
 # Cchristian95.github.io
-Mi portafolio personal
+Mi portafolio personal responsive
