@@ -114,9 +114,14 @@ header a:hover{
 }
 
 #about .container{
-    padding: 200px 12px;
+    padding: 200px 10px;
     text-align: center;
     
+    
+}
+
+#about p{
+    text-align: justify;
 }
 
 #tech{
